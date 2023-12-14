@@ -131,12 +131,13 @@ The micro f1 score of the final model on training set is 0.8668279330320199 and 
 The performance of the final model is better, since the micro f1 score of our final model improved by around 0.79% compared to the baseline model's micro f1 score. f1 scores of the the two models are comparable because the same training set and testing set are used for the two models.
 
 As shown by the confusion matrix below, while the perfomrance of the final model improved with respect to the micro f1-score, the issue with class imbalance still exists, as 'big meal' and 'event meal' classes are still mostly mispredicted as 'dail meal'. 
-|   0 |     1 |   2 |
-|----:|------:|----:|
-|   2 |  1072 |   9 |
-|   1 | 18124 |  14 |
-|   1 |  1705 |  18 |
 
+|||  predicted labels|
+|||----:|------:|----:|
+|true lables|big meal|  2 |  1072 |   9 |
+||daily meal | 1 | 18124 |  14 |
+|| event meal |1 |  1705 |  18 | 
+||| big meal | daily meal | event meal |
 
 ## Fairness Analysis 
 
