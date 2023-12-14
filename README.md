@@ -72,7 +72,7 @@ Big Meal - cooking time that takes more than 4hrs
 
 Meal type is chosen as the response variable because it's a very useful and esasy category that allows people to look for recipes based on their needs. 
 
-**Measureing Metrics**: The performance metric chosen for this classification model is micro f1-score.
+**Measuring Metrics**: The performance metric chosen for this classification model is micro f1-score.
 This is because there exists a rather large class imbalance in observed dataset where majority of recipes have the type "Daily Meal", which makes accuracy not a good metric. The prediction model can get a pretty high accuracy simply by predicting 'daily meal' all the time. 
 Thus, I chose micro f1-score as the evaluation metric because it's suitable for imbalanced datasets and is able to aggregate the performance metrics across all three classes into a single metric. 
 
