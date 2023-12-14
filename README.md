@@ -132,13 +132,6 @@ The performance of the final model is better, since the micro f1 score of our fi
 
 As shown by the confusion matrix below, while the perfomrance of the final model improved with respect to the micro f1-score, the issue with class imbalance still exists, as 'big meal' and 'event meal' classes are still mostly mispredicted as 'dail meal'. 
 
-|||  predicted labels|
-|||----:|------:|----:|
-|true lables|big meal|  2 |  1072 |   9 |
-||daily meal | 1 | 18124 |  14 |
-|| event meal |1 |  1705 |  18 | 
-||| big meal | daily meal | event meal |
-
 
 |                 |   predicted big meal |   predicted daily meal |   predicted event meal |
 |:----------------|---------------------:|-----------------------:|-----------------------:|
