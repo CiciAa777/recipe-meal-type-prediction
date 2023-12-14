@@ -4,7 +4,7 @@
 ## Project Overview 
 This data science project investigates different parts of a recipe and its cooking time, aiming to construct a classifer model that predicts if a recipe type is a daily meal, event meal, or big meal. The recipe type is categorized with respect to cooking time.  This is a course project for DSC80- Practice and Application of Data Science at UCSD. 
 
-My exploratory data analysis on this dataset can be found [here](https://github.com/CiciAa777/recipe-dataset-investigation/tree/main).
+My exploratory data analysis on this dataset can be found [here](https://ciciaa777.github.io/recipe-dataset-investigation/).
 
 
 ## Datasets in the study 
