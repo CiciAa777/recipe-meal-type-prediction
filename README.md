@@ -98,11 +98,11 @@ n_ingredients (discrete quantitative feature): Similary, this feature is include
 
 The performance of this baseline model is fine, but not excellent. This is because the f1 scores are very low for 'big meal' and 'event meal' classes. As shown in the confusion matrix below, the model tend to predict many 'big meal' classes or 'event meal' classes as 'daily meal' due to class imbalance in the observed dataset. 
 
-|   0 |     1 |   2 |
-|----:|------:|----:|
-|  22 |  1035 |  26 |
-|  59 | 17920 | 160 |
-|  24 |  1640 |  60 |
+|                 |   predicted big meal |   predicted daily meal |   predicted event meal |
+|:----------------|---------------------:|-----------------------:|-----------------------:|
+| true big meal   |                   22 |                   1035 |                     26 |
+| true daily meal |                   59 |                  17920 |                    160 |
+| true event meal |                   24 |                   1640 |                     60 |
 
 
 
@@ -138,6 +138,16 @@ As shown by the confusion matrix below, while the perfomrance of the final model
 ||daily meal | 1 | 18124 |  14 |
 || event meal |1 |  1705 |  18 | 
 ||| big meal | daily meal | event meal |
+
+
+|                 |   predicted big meal |   predicted daily meal |   predicted event meal |
+|:----------------|---------------------:|-----------------------:|-----------------------:|
+| true big meal   |                   2 |                   1072 |                     9  |
+| true daily meal |                   1 |                  18124 |                     14 |
+| true event meal |                   1 |                   1705 |                     18 |
+
+
+
 
 ## Fairness Analysis 
 
